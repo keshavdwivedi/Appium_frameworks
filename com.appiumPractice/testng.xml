@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test suite">
+<listeners>
+		<listener class-name="com.newAppiumPractice.utilities.AppiumPractice_ReportSetup" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_FirstTest"/>
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_SecondTest"/>
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_ThirdTest"/> 
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_FourthTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

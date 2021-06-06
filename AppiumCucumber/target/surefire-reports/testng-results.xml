@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="205513" started-at="2018-07-30T11:49:35Z" finished-at="2018-07-30T11:53:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runnerclass@458c1321]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Nopackage" duration-ms="205513" started-at="2018-07-30T11:49:35Z" finished-at="2018-07-30T11:53:01Z">
+      <class name="Runner.Runnerclass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.Runnerclass@458c1321]" name="setUpClass" is-config="true" duration-ms="392" started-at="2018-07-30T11:49:35Z" finished-at="2018-07-30T11:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runnerclass@458c1321]" name="feature" duration-ms="151086" started-at="2018-07-30T11:49:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-30T11:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To test the Custom View Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runnerclass@458c1321]" name="feature" duration-ms="53460" started-at="2018-07-30T11:52:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-30T11:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To test the View Section of application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.Runnerclass@458c1321]" name="tearDownClass" is-config="true" duration-ms="399" started-at="2018-07-30T11:53:00Z" finished-at="2018-07-30T11:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runnerclass -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

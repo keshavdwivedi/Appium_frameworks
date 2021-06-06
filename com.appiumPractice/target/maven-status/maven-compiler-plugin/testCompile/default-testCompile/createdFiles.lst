@@ -1,0 +1,13 @@
+com\newAppiumPractice\Pageobjects\AppiumPractice_PageFour.class
+com\newAppiumPractice\utilities\AppiumPractice_ReportSetup.class
+com\newAppiumPractice\Pageobjects\AppiumPractice_PageTwo.class
+com\newAppiumPractice\Tests\AppiumPractice_SecondTest.class
+com\newAppiumPractice\Pageobjects\AppiumPractice_PageThree.class
+com\newAppiumPractice\utilities\AppiumPractice_Readconfig.class
+com\newAppiumPractice\Tests\AppiumPractice_FourthTest.class
+com\newAppiumPractice\Pageobjects\AppiumPractice_PageOne.class
+com\newAppiumPractice\Tests\AppiumPractice_ThirdTest.class
+com\newAppiumPractice\Base\AppiumserverConfig.class
+com\newAppiumPractice\Tests\AppiumPractice_FirstTest.class
+com\newAppiumPractice\Base\AppiumPractice_base.class
+com\newAppiumPractice\utilities\AppiumPractice_Screenshotutil.class

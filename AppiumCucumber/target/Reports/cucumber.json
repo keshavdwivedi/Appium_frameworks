@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1200134343,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main menu of app",
+            "match": {
+              "location": "SeekbarView_Steps.i_am_on_the_main_menu_of_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 36710770810,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProjectBase.driverSetup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To navigate to the seekbar and move the seekbar",
+        "description": "",
+        "id": "to-test-the-seekbar-of-application;to-navigate-to-the-seekbar-and-move-the-seekbar",
+        "after": [
+          {
+            "result": {
+              "duration": 4845060254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProjectBase.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 297798399,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "we click on views option of the main menu",
+            "match": {
+              "location": "SeekbarView_Steps.we_click_on_views_option_of_the_main_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5926761682,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate seekbar option by scrolling to it",
+            "match": {
+              "location": "SeekbarView_Steps.i_validate_seekbar_option_by_scrolling_to_it()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279640890,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on seekbar option",
+            "match": {
+              "location": "SeekbarView_Steps.i_click_on_seekbar_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11367197093,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "move the seekbar and validate enable checkbox",
+            "match": {
+              "location": "SeekbarView_Steps.move_the_seekbar_and_validate_enable_checkbox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@seek"
+          }
+        ]
+      }
+    ],
+    "name": "To test the seekbar of application",
+    "description": "",
+    "id": "to-test-the-seekbar-of-application",
+    "keyword": "Feature",
+    "uri": "TestThree.feature"
+  }
+]
