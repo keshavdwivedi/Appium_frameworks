@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Test suite" duration-ms="50104" started-at="2019-01-06T11:57:52Z" finished-at="2019-01-06T11:58:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50104" started-at="2019-01-06T11:57:52Z" finished-at="2019-01-06T11:58:42Z">
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_SecondTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_SecondTest@7791a895]" name="test2" duration-ms="6274" started-at="2019-01-06T11:58:00Z" finished-at="2019-01-06T11:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_SecondTest -->
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_FirstTest">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_FirstTest@7d907bac]" name="baseSetup" is-config="true" duration-ms="14651" started-at="2019-01-06T11:57:37Z" finished-at="2019-01-06T11:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_FirstTest@7d907bac]" name="reportSetup" is-config="true" duration-ms="93" started-at="2019-01-06T11:57:52Z" finished-at="2019-01-06T11:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_FirstTest@7d907bac]" name="test1" duration-ms="8243" started-at="2019-01-06T11:57:52Z" finished-at="2019-01-06T11:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_FirstTest@7d907bac]" name="reportTeardown" is-config="true" duration-ms="313" started-at="2019-01-06T11:58:41Z" finished-at="2019-01-06T11:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_FirstTest@7d907bac]" name="teardown" is-config="true" duration-ms="5910" started-at="2019-01-06T11:58:42Z" finished-at="2019-01-06T11:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_FirstTest -->
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_ThirdTest">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_ThirdTest@3a5ed7a6]" name="test3" duration-ms="10842" started-at="2019-01-06T11:58:06Z" finished-at="2019-01-06T11:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_ThirdTest -->
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_FourthTest">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.newAppiumPractice.Tests.AppiumPractice_FourthTest@6325a3ee]" name="test4" duration-ms="24298" started-at="2019-01-06T11:58:17Z" finished-at="2019-01-06T11:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_FourthTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon Test suite -->
+</testng-results>

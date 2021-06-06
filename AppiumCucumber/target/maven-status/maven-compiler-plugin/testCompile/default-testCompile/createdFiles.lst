@@ -1,0 +1,8 @@
+StepDefinitions\TextView_Steps.class
+StepDefinitions\CustomView_Steps.class
+Pageobjects\TestOne_Pageobjects\MainViewPage_PageObjects.class
+Pageobjects\TestOne_Pageobjects\CustomViewPage_PageObjects.class
+Pageobjects\TestTwo_Pageobjects\MainMenu_Pageobjects.class
+Pageobjects\TestTwo_Pageobjects\Textsubmenu_Pageobjects.class
+Pageobjects\TestTwo_Pageobjects\ViewsSubmenu_Pageobjects.class
+Runner\Runnerclass.class

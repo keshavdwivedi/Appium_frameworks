@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon Test suite]">
+  <listeners>
+    <listener class-name="com.newAppiumPractice.utilities.AppiumPractice_ReportSetup"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_SecondTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="test2"/>
+          <include name="reportTeardown"/>
+          <include name="baseSetup"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_SecondTest -->
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_ThirdTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="reportTeardown"/>
+          <include name="baseSetup"/>
+          <include name="reportSetup"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_ThirdTest -->
+      <class name="com.newAppiumPractice.Tests.AppiumPractice_FourthTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="reportTeardown"/>
+          <include name="test4"/>
+          <include name="baseSetup"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- com.newAppiumPractice.Tests.AppiumPractice_FourthTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Amazon Test suite] -->

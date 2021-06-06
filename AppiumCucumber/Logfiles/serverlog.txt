@@ -1,0 +1,929 @@
+2018-07-30 17:57:10:943 - info: [Appium] Welcome to Appium v1.7.2
+2018-07-30 17:57:10:946 - info: [Appium] Non-default server args:
+2018-07-30 17:57:10:947 - info: [Appium]   address: 127.0.0.1
+2018-07-30 17:57:10:947 - info: [Appium]   log: C:\Users\HP\IdeaProjects\AppiumCucumber\Logfiles\serverlog.txt
+2018-07-30 17:57:10:969 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2018-07-30 17:57:11:199 - info: [HTTP] --> GET /wd/hub/status {}
+2018-07-30 17:57:11:206 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2018-07-30 17:57:11:293 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
+2018-07-30 17:57:11:308 - info: [HTTP] <-- GET /wd/hub/status 200 103 ms - 72 
+2018-07-30 17:57:17:897 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"Android","deviceName":"Nexus 6P"},"capabilities":{"desiredCapabilities":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"Android","deviceName":"Nexus 6P"},"firstMatch":[{"platformName":"android"}]}}
+2018-07-30 17:57:17:898 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"Android","deviceName":"Nexus 6P"},null,{"desiredCapabilities":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"Android","deviceName":"Nexus 6P"},"firstMatch":[{"platformName":"android"}]}]
+2018-07-30 17:57:17:900 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1532973437899 (23:27:17 GMT+0530 (India Standard Time))
+2018-07-30 17:57:17:901 - info: [Appium] Merged W3C capabilities {"desiredCapabilities":{"appPackage":"com.examp... into desiredCapabilities object {"appPackage":"com.example.android.apis","appAc...
+2018-07-30 17:57:17:907 - info: [Appium] Creating new AndroidDriver (v1.37.0) session
+2018-07-30 17:57:17:907 - info: [Appium] Capabilities:
+2018-07-30 17:57:17:908 - info: [Appium]   appPackage: com.example.android.apis
+2018-07-30 17:57:17:908 - info: [Appium]   appActivity: com.example.android.apis.ApiDemos
+2018-07-30 17:57:17:908 - info: [Appium]   platformName: android
+2018-07-30 17:57:17:909 - info: [Appium]   deviceName: Nexus 6P
+2018-07-30 17:57:17:928 - info: [BaseDriver] Session created with session id: e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0
+2018-07-30 17:57:17:929 - info: [debug] [AndroidDriver] Getting Java version
+2018-07-30 17:57:18:100 - info: [AndroidDriver] Java version is: 1.8.0_171
+2018-07-30 17:57:18:106 - info: [ADB] Checking whether adb is present
+2018-07-30 17:57:18:110 - info: [ADB] Using adb.exe from C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+2018-07-30 17:57:18:111 - info: [AndroidDriver] Retrieving device list
+2018-07-30 17:57:18:112 - info: [debug] [ADB] Trying to find a connected android device
+2018-07-30 17:57:18:114 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:18:181 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:18:182 - info: [AndroidDriver] Using device: 192.168.204.101:5555
+2018-07-30 17:57:18:184 - info: [ADB] Checking whether adb is present
+2018-07-30 17:57:18:185 - info: [debug] [ADB] Setting device id to 192.168.204.101:5555
+2018-07-30 17:57:18:186 - info: [AndroidDriver] App file was not listed, instead we're going to run com.example.android.apis directly on the device
+2018-07-30 17:57:18:187 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2018-07-30 17:57:18:189 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:18:695 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:18:699 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","pm","list","packages","com.example.android.apis"]
+2018-07-30 17:57:19:398 - info: [AndroidDriver] Starting Android session
+2018-07-30 17:57:19:400 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","wait-for-device"]
+2018-07-30 17:57:19:653 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:20:037 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:20:037 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","echo","ping"]
+2018-07-30 17:57:20:527 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-07-30 17:57:20:529 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-07-30 17:57:20:531 - info: [debug] [Logcat] Starting logcat capture
+2018-07-30 17:57:20:705 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-07-30 17:57:20:707 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-07-30 17:57:20:707 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:20:961 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:20:961 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","pm","list","packages","io.appium.settings"]
+2018-07-30 17:57:21:539 - info: [debug] [ADB] App is installed
+2018-07-30 17:57:21:540 - info: [debug] [ADB] Getting package info for io.appium.settings
+2018-07-30 17:57:21:540 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:21:751 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:21:753 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","dumpsys","package","io.appium.settings"]
+2018-07-30 17:57:22:286 - info: [ADB] Checking whether aapt is present
+2018-07-30 17:57:22:289 - info: [ADB] Using aapt.exe from C:\Users\HP\AppData\Local\Android\android-sdk\build-tools\26.0.1\aapt.exe
+2018-07-30 17:57:22:314 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+2018-07-30 17:57:22:316 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:22:682 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:22:682 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","getprop","ro.build.version.sdk"]
+2018-07-30 17:57:23:116 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 23
+2018-07-30 17:57:23:117 - info: [debug] [ADB] Device API level: 23
+2018-07-30 17:57:23:118 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:23:633 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:23:634 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","dumpsys","package","io.appium.settings"]
+2018-07-30 17:57:24:162 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:24:369 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:24:370 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","pm","dump","io.appium.settings"]
+2018-07-30 17:57:25:356 - info: [debug] [ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.CHANGE_NETWORK_STATE,;,pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+2018-07-30 17:57:25:357 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:25:415 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:25:415 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","pm","grant","io.appium.settings","android.permission.CHANGE_NETWORK_STATE",";","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+2018-07-30 17:57:27:036 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:27:293 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:27:294 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","ps"]
+2018-07-30 17:57:27:502 - info: [debug] [ADB] Device API level: 23
+2018-07-30 17:57:27:502 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:27:669 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:27:670 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2018-07-30 17:57:28:479 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-07-30 17:57:28:480 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-07-30 17:57:28:480 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:28:732 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:28:732 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","pm","list","packages","io.appium.unlock"]
+2018-07-30 17:57:29:515 - info: [debug] [ADB] App is installed
+2018-07-30 17:57:29:515 - info: [debug] [ADB] Getting package info for io.appium.unlock
+2018-07-30 17:57:29:515 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:29:783 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:29:784 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","dumpsys","package","io.appium.unlock"]
+2018-07-30 17:57:30:228 - info: [ADB] Checking whether aapt is present
+2018-07-30 17:57:30:251 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+2018-07-30 17:57:30:251 - info: [ADB] Getting device platform version
+2018-07-30 17:57:30:253 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:30:371 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:30:372 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","getprop","ro.build.version.release"]
+2018-07-30 17:57:30:738 - info: [debug] [ADB] Current device property 'ro.build.version.release': 6.0
+2018-07-30 17:57:30:739 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:30:930 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:30:931 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","wm","size"]
+2018-07-30 17:57:32:070 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:32:130 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:32:131 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","getprop","ro.product.model"]
+2018-07-30 17:57:32:355 - info: [debug] [ADB] Current device property 'ro.product.model': Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920
+2018-07-30 17:57:32:356 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:32:583 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:32:583 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","getprop","ro.product.manufacturer"]
+2018-07-30 17:57:32:848 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Genymotion
+2018-07-30 17:57:32:850 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-07-30 17:57:32:851 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2018-07-30 17:57:32:852 - info: [debug] [AndroidDriver] Running fast reset (stop and clear)
+2018-07-30 17:57:32:853 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:33:037 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:33:038 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","am","force-stop","com.example.android.apis"]
+2018-07-30 17:57:33:823 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:34:080 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:34:080 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","pm","clear","com.example.android.apis"]
+2018-07-30 17:57:34:683 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-07-30 17:57:34:685 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-07-30 17:57:34:686 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","forward","tcp:4724","tcp:4724"]
+2018-07-30 17:57:34:692 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-07-30 17:57:34:693 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-07-30 17:57:34:693 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-07-30 17:57:34:693 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-07-30 17:57:34:694 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","push","C:\\Users\\HP\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-07-30 17:57:35:424 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-07-30 17:57:35:425 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-07-30 17:57:35:425 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:35:608 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:35:608 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","ps"]
+2018-07-30 17:57:36:047 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-07-30 17:57:36:047 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-07-30 17:57:36:048 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","192.168.204.101:5555","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.example.android.apis","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-07-30 17:57:36:608 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-07-30 17:57:36:612 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-07-30 17:57:36:614 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-07-30 17:57:36:616 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:36:621 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-07-30 17:57:36:749 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:36:749 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","dumpsys","window"]
+2018-07-30 17:57:37:006 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-07-30 17:57:37:007 - info: [debug] [ADB] Device API level: 23
+2018-07-30 17:57:37:008 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:37:376 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:37:376 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","am","start","-W","-n","com.example.android.apis/com.example.android.apis.ApiDemos","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-07-30 17:57:40:406 - info: [Appium] New AndroidDriver session created successfully, session e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 added to master session list
+2018-07-30 17:57:40:408 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1532973460407 (23:27:40 GMT+0530 (India Standard Time))
+2018-07-30 17:57:40:408 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:40:411 - info: [HTTP] <-- POST /wd/hub/session 200 22512 ms - 759 
+2018-07-30 17:57:40:520 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:40:522 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:40:529 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:40:531 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 11 ms - 759 
+2018-07-30 17:57:40:555 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:40:556 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:40:559 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:40:560 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:40:980 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:40:981 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:40:983 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:40:984 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:40:990 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:40:990 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:40:992 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:40:994 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:032 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:033 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:049 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:050 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 17 ms - 759 
+2018-07-30 17:57:41:056 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:057 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:060 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:061 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:41:415 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:416 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:420 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:421 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 6 ms - 759 
+2018-07-30 17:57:41:428 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:428 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:432 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:433 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:41:441 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:441 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:443 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:444 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:450 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:451 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:453 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:454 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:461 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:462 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:465 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:467 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:41:471 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:471 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:473 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:474 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:477 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:477 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:480 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:480 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:485 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:485 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:488 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:488 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:493 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:494 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:497 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:498 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:504 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:504 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:506 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:507 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:512 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:513 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:516 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:516 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:520 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:520 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:522 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:523 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:528 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:529 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:531 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:532 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:537 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:538 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:541 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:543 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:549 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:549 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:552 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:553 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:560 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:560 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:563 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:564 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:578 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:578 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:581 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:607 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 6 ms - 759 
+2018-07-30 17:57:41:610 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.TextView[@text='Accessibility']"}
+2018-07-30 17:57:41:611 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='Accessibility']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:613 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:41:614 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:41:614 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:41:616 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Accessibility']","context":"","multiple":false}}
+2018-07-30 17:57:41:622 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Accessibility']","context":"","multiple":false}}
+2018-07-30 17:57:41:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:41:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:41:624 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='Accessibility']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:41:682 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+2018-07-30 17:57:41:689 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:41:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-07-30 17:57:41:692 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+2018-07-30 17:57:41:693 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 83 ms - 87 
+2018-07-30 17:57:41:697 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:698 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:700 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:701 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:705 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:706 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:708 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:710 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:714 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:714 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:716 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:717 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:724 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:725 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:726 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:727 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:736 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/1/displayed {}
+2018-07-30 17:57:41:737 - info: [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["1","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:738 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"1"}}
+2018-07-30 17:57:41:742 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"1"}}
+2018-07-30 17:57:41:743 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:41:743 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-07-30 17:57:41:771 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:41:772 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-07-30 17:57:41:773 - info: [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2018-07-30 17:57:41:774 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/1/displayed 200 38 ms - 76 
+2018-07-30 17:57:41:790 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:791 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:793 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:795 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:799 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.TextView[@text='Views']"}
+2018-07-30 17:57:41:800 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='Views']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:802 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:41:802 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:41:802 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:41:803 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Views']","context":"","multiple":false}}
+2018-07-30 17:57:41:806 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Views']","context":"","multiple":false}}
+2018-07-30 17:57:41:806 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:41:806 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:41:807 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='Views']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:41:842 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=12]
+2018-07-30 17:57:41:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-07-30 17:57:41:851 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:41:851 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+2018-07-30 17:57:41:852 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 53 ms - 87 
+2018-07-30 17:57:41:856 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:857 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:859 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:860 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:870 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:870 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:872 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:873 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:879 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:881 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:881 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:883 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:41:888 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:41:888 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:892 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:41:893 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:41:904 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform {"actions":[{"action":"tap","options":{"element":"2"}}]}
+2018-07-30 17:57:41:906 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"2"}}],"e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:41:911 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+2018-07-30 17:57:41:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+2018-07-30 17:57:41:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:41:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2018-07-30 17:57:41:938 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:41:939 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"2"}}
+2018-07-30 17:57:41:939 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":0,"y":1254}}
+2018-07-30 17:57:41:942 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"2"}}
+2018-07-30 17:57:41:942 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:41:943 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+2018-07-30 17:57:41:949 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":1200,"height":96}}
+2018-07-30 17:57:41:949 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:41:951 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2","x":600,"y":1302}}
+2018-07-30 17:57:41:955 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2","x":600,"y":1302}}
+2018-07-30 17:57:41:955 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:41:955 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-07-30 17:57:42:076 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:42:077 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:42:078 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-07-30 17:57:42:078 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform 200 175 ms - 76 
+2018-07-30 17:57:42:087 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:42:087 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:42:090 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:42:091 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:42:096 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.TextView[@text='Animation']"}
+2018-07-30 17:57:42:097 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='Animation']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:42:098 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:42:098 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:42:099 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:42:099 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Animation']","context":"","multiple":false}}
+2018-07-30 17:57:42:107 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Animation']","context":"","multiple":false}}
+2018-07-30 17:57:42:109 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:42:109 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:42:109 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='Animation']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:42:328 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+2018-07-30 17:57:43:118 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:43:119 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3"}
+2018-07-30 17:57:43:120 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 1024 ms - 87 
+2018-07-30 17:57:43:121 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2018-07-30 17:57:43:125 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:43:126 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:43:128 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:43:129 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:43:135 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:43:136 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:43:139 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:43:140 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:43:146 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:43:147 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:43:150 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:43:151 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:43:159 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:43:160 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:43:164 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:43:165 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:43:169 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/3/displayed {}
+2018-07-30 17:57:43:170 - info: [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["3","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:43:172 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"3"}}
+2018-07-30 17:57:43:177 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"3"}}
+2018-07-30 17:57:43:177 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:43:177 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-07-30 17:57:43:188 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:43:188 - info: [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2018-07-30 17:57:43:189 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/3/displayed 200 19 ms - 76 
+2018-07-30 17:57:43:191 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-07-30 17:57:43:196 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/elements {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Seek Bar\"));"}
+2018-07-30 17:57:43:197 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiScrollable(new UiSelector()).scrollIntoView(text(\"Seek Bar\"));","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:43:198 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:43:198 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:43:199 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:43:199 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Seek Bar\"));","context":"","multiple":true}}
+2018-07-30 17:57:43:208 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Seek Bar\"));","context":"","multiple":true}}
+2018-07-30 17:57:43:209 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:43:209 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:43:209 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiScrollable(new UiSelector()).scrollIntoView(text("Seek Bar"));' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+2018-07-30 17:57:43:210 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing scrollable: new UiScrollable(new UiSelector()).scrollIntoView(text("Seek Bar"))
+2018-07-30 17:57:43:213 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: text("Seek Bar"),
+2018-07-30 17:57:43:214 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: text("Seek Bar")
+2018-07-30 17:57:43:214 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Seek Bar"
+2018-07-30 17:57:43:214 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Method name: scrollIntoView
+2018-07-30 17:57:43:214 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Setting uiObject for scrollIntoView
+2018-07-30 17:57:43:262 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException with: com.android.uiautomator.core.UiObject@63dba32
+2018-07-30 17:57:47:929 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Invoke complete.
+2018-07-30 17:57:47:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Seek Bar]
+2018-07-30 17:57:47:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Seek Bar]
+2018-07-30 17:57:47:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-07-30 17:57:47:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Seek Bar, INSTANCE=0]
+2018-07-30 17:57:47:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-07-30 17:57:47:936 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Seek Bar, INSTANCE=1]
+2018-07-30 17:57:47:960 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:47:960 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"4"}]}
+2018-07-30 17:57:47:961 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"4"}]
+2018-07-30 17:57:47:962 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/elements 200 4765 ms - 89 
+2018-07-30 17:57:47:973 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:47:974 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:47:976 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:47:977 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:47:984 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:47:984 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:47:988 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:47:989 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:47:994 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:47:995 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:47:996 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:47:997 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:48:002 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:003 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:006 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:007 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:48:014 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:017 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:020 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:025 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 6 ms - 759 
+2018-07-30 17:57:48:026 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.TextView[@text='Seek Bar']"}
+2018-07-30 17:57:48:027 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='Seek Bar']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:027 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:48:028 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:48:028 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:48:028 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Seek Bar']","context":"","multiple":false}}
+2018-07-30 17:57:48:036 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Seek Bar']","context":"","multiple":false}}
+2018-07-30 17:57:48:036 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:48:036 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:48:037 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='Seek Bar']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:48:066 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=10]
+2018-07-30 17:57:48:097 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:48:097 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2018-07-30 17:57:48:098 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5"}
+2018-07-30 17:57:48:099 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 72 ms - 87 
+2018-07-30 17:57:48:101 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:102 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:105 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:105 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:48:110 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:110 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:112 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:113 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:48:119 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:120 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:123 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:124 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:48:127 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:128 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:132 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:133 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 6 ms - 759 
+2018-07-30 17:57:48:139 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform {"actions":[{"action":"tap","options":{"element":"5"}}]}
+2018-07-30 17:57:48:139 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"5"}}],"e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:141 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"5"}}
+2018-07-30 17:57:48:144 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"5"}}
+2018-07-30 17:57:48:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:48:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2018-07-30 17:57:48:149 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":0,"y":970}}
+2018-07-30 17:57:48:149 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:48:150 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"5"}}
+2018-07-30 17:57:48:155 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"5"}}
+2018-07-30 17:57:48:155 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:48:155 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+2018-07-30 17:57:48:158 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:48:159 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"5","x":600,"y":1018}}
+2018-07-30 17:57:48:160 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":1200,"height":96}}
+2018-07-30 17:57:48:164 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5","x":600,"y":1018}}
+2018-07-30 17:57:48:164 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:48:164 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-07-30 17:57:48:285 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:48:286 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:48:287 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-07-30 17:57:48:288 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform 200 148 ms - 76 
+2018-07-30 17:57:48:293 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:48:294 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:296 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:48:297 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:48:300 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.CheckBox[@text='Enabled']"}
+2018-07-30 17:57:48:301 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.CheckBox[@text='Enabled']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:48:302 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:48:302 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:48:302 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:48:303 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.CheckBox[@text='Enabled']","context":"","multiple":false}}
+2018-07-30 17:57:48:312 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.CheckBox[@text='Enabled']","context":"","multiple":false}}
+2018-07-30 17:57:48:313 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:48:313 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:48:313 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.CheckBox[@text='Enabled']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:48:642 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-07-30 17:57:48:644 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.CheckBox[@text='Enabled']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:49:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-07-30 17:57:49:176 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:49:186 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 500 881 ms - 164 
+2018-07-30 17:57:49:744 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:49:744 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:745 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:49:746 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 2 ms - 759 
+2018-07-30 17:57:49:751 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.CheckBox[@text='Enabled']"}
+2018-07-30 17:57:49:751 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.CheckBox[@text='Enabled']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:752 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:49:753 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:49:753 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:49:753 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.CheckBox[@text='Enabled']","context":"","multiple":false}}
+2018-07-30 17:57:49:757 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.CheckBox[@text='Enabled']","context":"","multiple":false}}
+2018-07-30 17:57:49:757 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:49:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:49:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.CheckBox[@text='Enabled']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:49:793 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=0]
+2018-07-30 17:57:49:798 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2018-07-30 17:57:49:801 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:49:802 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"6"}
+2018-07-30 17:57:49:802 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 51 ms - 87 
+2018-07-30 17:57:49:806 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:49:807 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:807 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:49:809 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:49:812 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:49:812 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:814 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:49:815 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:49:820 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:49:821 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:824 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:49:825 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:49:829 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:49:829 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:834 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:49:835 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 6 ms - 759 
+2018-07-30 17:57:49:838 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/6/click {"id":"6"}
+2018-07-30 17:57:49:839 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["6","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:49:840 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2018-07-30 17:57:49:845 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2018-07-30 17:57:49:845 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:49:845 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-07-30 17:57:50:000 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:50:002 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:004 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-07-30 17:57:50:005 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/6/click 200 167 ms - 76 
+2018-07-30 17:57:50:011 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:012 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:015 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:017 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:50:021 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.SeekBar[@index='1']"}
+2018-07-30 17:57:50:022 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.SeekBar[@index='1']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:022 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:50:023 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:50:023 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:50:024 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='1']","context":"","multiple":false}}
+2018-07-30 17:57:50:029 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='1']","context":"","multiple":false}}
+2018-07-30 17:57:50:030 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:031 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:50:032 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.SeekBar[@index='1']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:50:143 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=0]
+2018-07-30 17:57:50:512 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2018-07-30 17:57:50:513 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:514 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"7"}
+2018-07-30 17:57:50:514 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 493 ms - 87 
+2018-07-30 17:57:50:519 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:520 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:524 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:526 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:50:532 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:532 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:537 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:539 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 6 ms - 759 
+2018-07-30 17:57:50:546 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:546 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:549 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:550 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:50:554 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:555 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:557 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:558 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:562 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/7/location {}
+2018-07-30 17:57:50:564 - info: [debug] [MJSONWP] Calling AppiumDriver.getLocation() with args: ["7","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:570 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"7"}}
+2018-07-30 17:57:50:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"7"}}
+2018-07-30 17:57:50:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2018-07-30 17:57:50:585 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":32,"y":272}}
+2018-07-30 17:57:50:585 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:586 - info: [debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":32,"y":272}
+2018-07-30 17:57:50:587 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/7/location 200 25 ms - 88 
+2018-07-30 17:57:50:594 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:594 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:597 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:597 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:602 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.SeekBar[@index='1']"}
+2018-07-30 17:57:50:603 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.SeekBar[@index='1']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:603 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:50:604 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:50:604 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:50:605 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='1']","context":"","multiple":false}}
+2018-07-30 17:57:50:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='1']","context":"","multiple":false}}
+2018-07-30 17:57:50:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:50:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.SeekBar[@index='1']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:50:682 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=0]
+2018-07-30 17:57:50:688 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2018-07-30 17:57:50:689 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:691 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"8"}
+2018-07-30 17:57:50:692 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 90 ms - 87 
+2018-07-30 17:57:50:697 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:697 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:701 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:703 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:50:707 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:708 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:710 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:711 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:714 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:715 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:718 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:719 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:50:728 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:728 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:729 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:730 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:735 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/8/location {}
+2018-07-30 17:57:50:736 - info: [debug] [MJSONWP] Calling AppiumDriver.getLocation() with args: ["8","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:736 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"8"}}
+2018-07-30 17:57:50:754 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"8"}}
+2018-07-30 17:57:50:756 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:756 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2018-07-30 17:57:50:777 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":32,"y":272}}
+2018-07-30 17:57:50:778 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:778 - info: [debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":32,"y":272}
+2018-07-30 17:57:50:779 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/8/location 200 45 ms - 88 
+2018-07-30 17:57:50:783 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:784 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:786 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:787 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:791 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.SeekBar[@index='1']"}
+2018-07-30 17:57:50:792 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.SeekBar[@index='1']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:792 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:50:793 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:50:793 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:50:793 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='1']","context":"","multiple":false}}
+2018-07-30 17:57:50:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='1']","context":"","multiple":false}}
+2018-07-30 17:57:50:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:50:802 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.SeekBar[@index='1']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:50:820 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=0]
+2018-07-30 17:57:50:831 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2018-07-30 17:57:50:835 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:836 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"9"}
+2018-07-30 17:57:50:837 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 46 ms - 87 
+2018-07-30 17:57:50:841 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:842 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:844 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:845 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:849 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:850 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:852 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:853 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:856 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:856 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:858 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:858 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:50:861 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:50:862 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:865 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:50:865 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:50:869 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/9/size {}
+2018-07-30 17:57:50:869 - info: [debug] [MJSONWP] Calling AppiumDriver.getSize() with args: ["9","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:870 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"9"}}
+2018-07-30 17:57:50:875 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"9"}}
+2018-07-30 17:57:50:875 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:875 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+2018-07-30 17:57:50:878 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":1136,"height":36}}
+2018-07-30 17:57:50:879 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:880 - info: [debug] [MJSONWP] Responding to client with driver.getSize() result: {"width":1136,"height":36}
+2018-07-30 17:57:50:880 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/9/size 200 11 ms - 98 
+2018-07-30 17:57:50:885 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform {"actions":[{"action":"press","options":{"x":32,"y":272}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":1136,"y":272}},{"action":"wait","options":{"ms":2000}},{"action":"release","options":{}}]}
+2018-07-30 17:57:50:885 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":32,"y":272}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":1136,"y":272}},{"action":"wait","options":{"ms":2000}},{"action":"release","options":{}}],"e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:50:889 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":32,"y":272}}
+2018-07-30 17:57:50:892 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":32,"y":272}}
+2018-07-30 17:57:50:892 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:50:893 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2018-07-30 17:57:50:895 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1200,1824]
+2018-07-30 17:57:50:896 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 32, y: 272
+2018-07-30 17:57:50:898 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:50:900 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:52:902 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":1168,"y":544}}
+2018-07-30 17:57:52:907 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":1168,"y":544}}
+2018-07-30 17:57:52:907 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:52:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2018-07-30 17:57:52:913 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1200,1824]
+2018-07-30 17:57:52:913 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 1168, y: 544
+2018-07-30 17:57:52:922 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:52:923 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:54:926 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":1168,"y":544}}
+2018-07-30 17:57:54:929 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":1168,"y":544}}
+2018-07-30 17:57:54:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:54:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2018-07-30 17:57:54:933 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1200,1824]
+2018-07-30 17:57:54:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 1168, y: 544
+2018-07-30 17:57:54:937 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:54:938 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-07-30 17:57:54:939 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform 200 4054 ms - 76 
+2018-07-30 17:57:54:940 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:54:943 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:54:943 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:54:952 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:54:954 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 10 ms - 759 
+2018-07-30 17:57:54:957 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.SeekBar[@index='2']"}
+2018-07-30 17:57:54:958 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.SeekBar[@index='2']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:54:959 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:54:960 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:54:960 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:54:960 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='2']","context":"","multiple":false}}
+2018-07-30 17:57:54:968 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='2']","context":"","multiple":false}}
+2018-07-30 17:57:54:969 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:54:969 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:54:969 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.SeekBar[@index='2']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:55:048 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=1]
+2018-07-30 17:57:55:116 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2018-07-30 17:57:55:118 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:55:119 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"10"}
+2018-07-30 17:57:55:120 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 162 ms - 88 
+2018-07-30 17:57:55:123 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:123 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:126 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:126 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:129 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:130 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:133 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:135 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:55:140 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:140 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:142 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:143 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:149 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:149 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:152 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:153 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:55:157 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/10/location {}
+2018-07-30 17:57:55:158 - info: [debug] [MJSONWP] Calling AppiumDriver.getLocation() with args: ["10","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:158 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"10"}}
+2018-07-30 17:57:55:163 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"10"}}
+2018-07-30 17:57:55:164 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:55:164 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2018-07-30 17:57:55:182 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":32,"y":308}}
+2018-07-30 17:57:55:183 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:55:184 - info: [debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":32,"y":308}
+2018-07-30 17:57:55:186 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/10/location 200 29 ms - 88 
+2018-07-30 17:57:55:189 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:189 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:192 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:195 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4 ms - 759 
+2018-07-30 17:57:55:203 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.SeekBar[@index='2']"}
+2018-07-30 17:57:55:204 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.SeekBar[@index='2']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:205 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:55:206 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:55:206 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:55:206 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='2']","context":"","multiple":false}}
+2018-07-30 17:57:55:213 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='2']","context":"","multiple":false}}
+2018-07-30 17:57:55:213 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:55:213 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:55:214 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.SeekBar[@index='2']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:55:281 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=1]
+2018-07-30 17:57:55:306 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+2018-07-30 17:57:55:308 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:55:309 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"11"}
+2018-07-30 17:57:55:310 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 105 ms - 88 
+2018-07-30 17:57:55:317 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:319 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:390 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:392 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 72 ms - 759 
+2018-07-30 17:57:55:395 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:396 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:406 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:407 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 12 ms - 759 
+2018-07-30 17:57:55:413 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:413 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:416 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:417 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:425 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:425 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:427 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:428 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:433 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/11/location {}
+2018-07-30 17:57:55:433 - info: [debug] [MJSONWP] Calling AppiumDriver.getLocation() with args: ["11","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:435 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"11"}}
+2018-07-30 17:57:55:438 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"11"}}
+2018-07-30 17:57:55:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:55:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2018-07-30 17:57:55:447 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:55:450 - info: [debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":32,"y":308}
+2018-07-30 17:57:55:451 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/11/location 200 17 ms - 88 
+2018-07-30 17:57:55:476 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":32,"y":308}}
+2018-07-30 17:57:55:477 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:478 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:482 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:485 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:55:488 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element {"using":"xpath","value":"//android.widget.SeekBar[@index='2']"}
+2018-07-30 17:57:55:488 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.SeekBar[@index='2']","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:489 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:55:489 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-30 17:57:55:489 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-30 17:57:55:490 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='2']","context":"","multiple":false}}
+2018-07-30 17:57:55:497 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.SeekBar[@index='2']","context":"","multiple":false}}
+2018-07-30 17:57:55:497 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:55:498 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-07-30 17:57:55:498 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.SeekBar[@index='2']' using 'XPATH' with the contextId: '' multiple: false
+2018-07-30 17:57:55:540 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=1]
+2018-07-30 17:57:55:546 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+2018-07-30 17:57:55:547 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:55:548 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"12"}
+2018-07-30 17:57:55:550 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element 200 61 ms - 88 
+2018-07-30 17:57:55:553 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:553 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:556 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:558 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 5 ms - 759 
+2018-07-30 17:57:55:562 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:562 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:564 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:566 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:570 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:570 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:573 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:574 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:576 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:55:577 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:579 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"Nexus 6P"},"appPackage":"com.example.android.apis","appActivity":"com.example.android.apis.ApiDemos","platformName":"android","deviceName":"192.168.204.101:5555","deviceUDID":"192.168.204.101:5555","platformVersion":"6.0","deviceScreenSize":"1200x1920","deviceModel":"Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920","deviceManufacturer":"Genymotion"}
+2018-07-30 17:57:55:580 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 3 ms - 759 
+2018-07-30 17:57:55:584 - info: [HTTP] --> GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/12/size {}
+2018-07-30 17:57:55:584 - info: [debug] [MJSONWP] Calling AppiumDriver.getSize() with args: ["12","e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:585 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"12"}}
+2018-07-30 17:57:55:587 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"12"}}
+2018-07-30 17:57:55:588 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:55:589 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+2018-07-30 17:57:55:591 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":1136,"height":36}}
+2018-07-30 17:57:55:591 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:55:592 - info: [debug] [MJSONWP] Responding to client with driver.getSize() result: {"width":1136,"height":36}
+2018-07-30 17:57:55:599 - info: [HTTP] <-- GET /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/element/12/size 200 9 ms - 98 
+2018-07-30 17:57:55:600 - info: [HTTP] --> POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform {"actions":[{"action":"press","options":{"x":32,"y":308}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":454,"y":308}},{"action":"wait","options":{"ms":2000}},{"action":"release","options":{}}]}
+2018-07-30 17:57:55:600 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":32,"y":308}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":454,"y":308}},{"action":"wait","options":{"ms":2000}},{"action":"release","options":{}}],"e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:55:602 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":32,"y":308}}
+2018-07-30 17:57:55:604 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":32,"y":308}}
+2018-07-30 17:57:55:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:55:607 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2018-07-30 17:57:55:608 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1200,1824]
+2018-07-30 17:57:55:609 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 32, y: 308
+2018-07-30 17:57:55:611 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:55:612 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:57:614 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":486,"y":616}}
+2018-07-30 17:57:57:619 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":486,"y":616}}
+2018-07-30 17:57:57:620 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:57:620 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2018-07-30 17:57:57:624 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1200,1824]
+2018-07-30 17:57:57:624 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 486, y: 616
+2018-07-30 17:57:57:640 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:57:641 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:59:642 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":486,"y":616}}
+2018-07-30 17:57:59:645 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":486,"y":616}}
+2018-07-30 17:57:59:646 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-07-30 17:57:59:646 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2018-07-30 17:57:59:648 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1200,1824]
+2018-07-30 17:57:59:649 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 486, y: 616
+2018-07-30 17:57:59:653 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-07-30 17:57:59:653 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:57:59:654 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-07-30 17:57:59:655 - info: [HTTP] <-- POST /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0/touch/perform 200 4055 ms - 76 
+2018-07-30 17:57:59:661 - info: [HTTP] --> DELETE /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 {}
+2018-07-30 17:57:59:663 - info: [debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0"]
+2018-07-30 17:57:59:664 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1532973479663 (23:27:59 GMT+0530 (India Standard Time))
+2018-07-30 17:57:59:666 - info: [Appium] Removing session e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 from our master session list
+2018-07-30 17:57:59:668 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-07-30 17:57:59:670 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:57:59:804 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:57:59:805 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","am","force-stop","com.example.android.apis"]
+2018-07-30 17:58:01:118 - info: [debug] [ADB] Pressing the HOME button
+2018-07-30 17:58:01:119 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:58:01:424 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:58:01:425 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","input","keyevent",3]
+2018-07-30 17:58:02:512 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-07-30 17:58:02:520 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-07-30 17:58:02:520 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-07-30 17:58:02:521 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-07-30 17:58:02:521 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-07-30 17:58:02:522 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-07-30 17:58:02:522 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-07-30 17:58:02:522 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-07-30 17:58:02:523 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-07-30 17:58:02:524 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-07-30 17:58:02:524 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-07-30 17:58:02:524 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-07-30 17:58:02:524 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-07-30 17:58:02:524 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2018-07-30 17:58:02:524 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 25.944
+2018-07-30 17:58:02:526 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2018-07-30 17:58:02:527 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2018-07-30 17:58:02:528 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-07-30 17:58:02:529 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-07-30 17:58:02:530 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-07-30 17:58:02:561 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2018-07-30 17:58:02:561 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-07-30 17:58:02:562 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-07-30 17:58:02:562 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-07-30 17:58:02:562 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:58:02:640 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:58:02:640 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","ps"]
+2018-07-30 17:58:03:170 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-07-30 17:58:03:172 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-07-30 17:58:03:173 - info: [debug] [Logcat] Stopping logcat capture
+2018-07-30 17:58:03:196 - info: [debug] [ADB] Getting connected devices...
+2018-07-30 17:58:03:543 - info: [debug] [ADB] 1 device(s) connected
+2018-07-30 17:58:03:544 - info: [debug] [ADB] Running 'C:\Users\HP\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.204.101:5555","shell","am","force-stop","io.appium.unlock"]
+2018-07-30 17:58:04:372 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-07-30 17:58:04:373 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1532973484373 (23:28:04 GMT+0530 (India Standard Time))
+2018-07-30 17:58:04:373 - info: [debug] [MJSONWP] Received response: null
+2018-07-30 17:58:04:374 - info: [debug] [MJSONWP] But deleting session, so not returning
+2018-07-30 17:58:04:374 - info: [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+2018-07-30 17:58:04:375 - info: [HTTP] <-- DELETE /wd/hub/session/e4ba8fad-f39b-4f0f-93ff-ff3b1b67afa0 200 4713 ms - 76 
+2018-07-30 17:58:04:383 - info: [HTTP] --> GET /wd/hub/status {}
+2018-07-30 17:58:04:383 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2018-07-30 17:58:04:449 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
+2018-07-30 17:58:04:450 - info: [HTTP] <-- GET /wd/hub/status 200 67 ms - 83 
